@@ -25,53 +25,51 @@
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="Poga00" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_0" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga0dot" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_dot" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga0PlusMinus" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_PlusMinus" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga_equals" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_equals" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="Poga01" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga02" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga03" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga_minus" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_minus" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="Poga22" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga05" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga06" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga_add" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_add" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="Poga07" min="-2" max="-2" attributes="0"/>
-                              <Component id="Poga08" min="-2" max="-2" attributes="0"/>
+                              <Component id="Button_7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="Button_8" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="Poga_C" min="-2" max="-2" attributes="0"/>
+                              <Component id="Button_C" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="Poga_CE" min="-2" max="-2" attributes="0"/>
+                              <Component id="Button_CE" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Poga09" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                              <Component id="Poga_squareRoot" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="Button_9" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Button_squareRoot" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="Poga_multiply" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_multiply" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -80,12 +78,12 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Lauks2" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
-                          <Component id="Lauks1" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
+                          <Component id="LabelB" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
+                          <Component id="LabelA" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
-                  <Component id="Poga_divide" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_divide" alignment="1" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
       </Group>
@@ -94,50 +92,50 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace pref="40" max="32767" attributes="0"/>
-              <Component id="Lauks2" min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="LabelB" min="-2" pref="29" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="Lauks1" min="-2" pref="60" max="-2" attributes="0"/>
+              <Component id="LabelA" min="-2" pref="60" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Poga_divide" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga_CE" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga_C" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga_squareRoot" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_divide" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_CE" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_C" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_squareRoot" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Poga_multiply" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga09" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga08" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga07" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_multiply" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_7" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Poga_add" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga06" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga05" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga22" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_add" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_4" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Poga_minus" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga03" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga02" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga01" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_minus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Poga_equals" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga0PlusMinus" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga0dot" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="Poga00" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_equals" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_PlusMinus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_dot" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_0" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="Lauks1">
+    <Component class="javax.swing.JLabel" name="LabelA">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="99" green="99" red="99" type="rgb"/>
@@ -158,7 +156,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_equals">
+    <Component class="javax.swing.JButton" name="Button_equals">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="99" red="ff" type="rgb"/>
@@ -181,10 +179,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_equalsActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_equalsActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga0PlusMinus">
+    <Component class="javax.swing.JButton" name="Button_PlusMinus">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -211,10 +209,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga0PlusMinusActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_PlusMinusActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga0dot">
+    <Component class="javax.swing.JButton" name="Button_dot">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -241,10 +239,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga0dotActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_dotActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga00">
+    <Component class="javax.swing.JButton" name="Button_0">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -271,10 +269,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga00ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_0ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_minus">
+    <Component class="javax.swing.JButton" name="Button_minus">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="c8" green="c8" red="c8" type="rgb"/>
@@ -301,10 +299,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_minusActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_minusActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga03">
+    <Component class="javax.swing.JButton" name="Button_3">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -331,10 +329,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga03ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_3ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga02">
+    <Component class="javax.swing.JButton" name="Button_2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -361,10 +359,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga02ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_2ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga01">
+    <Component class="javax.swing.JButton" name="Button_1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -391,10 +389,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga01ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_1ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_add">
+    <Component class="javax.swing.JButton" name="Button_add">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="c8" green="c8" red="c8" type="rgb"/>
@@ -421,10 +419,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_addActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_addActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_multiply">
+    <Component class="javax.swing.JButton" name="Button_multiply">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="c8" green="c8" red="c8" type="rgb"/>
@@ -451,10 +449,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_multiplyActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_multiplyActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga09">
+    <Component class="javax.swing.JButton" name="Button_9">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -481,10 +479,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga09ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_9ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga06">
+    <Component class="javax.swing.JButton" name="Button_6">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -511,10 +509,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga06ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_6ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga05">
+    <Component class="javax.swing.JButton" name="Button_5">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -541,10 +539,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga05ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_5ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga08">
+    <Component class="javax.swing.JButton" name="Button_8">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -571,10 +569,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga08ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_8ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga07">
+    <Component class="javax.swing.JButton" name="Button_7">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -601,11 +599,11 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga07ActionPerformed"/>
-        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="Poga07KeyPressed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_7ActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="Button_7KeyPressed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga22">
+    <Component class="javax.swing.JButton" name="Button_4">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -632,10 +630,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga22ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_4ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_divide">
+    <Component class="javax.swing.JButton" name="Button_divide">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="c8" green="c8" red="c8" type="rgb"/>
@@ -663,10 +661,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_divideActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_divideActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_CE">
+    <Component class="javax.swing.JButton" name="Button_CE">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="c8" green="c8" red="c8" type="rgb"/>
@@ -693,10 +691,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_CEActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_CEActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_C">
+    <Component class="javax.swing.JButton" name="Button_C">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="c8" green="c8" red="c8" type="rgb"/>
@@ -723,10 +721,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_CActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_CActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Poga_squareRoot">
+    <Component class="javax.swing.JButton" name="Button_squareRoot">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="c8" green="c8" red="c8" type="rgb"/>
@@ -753,10 +751,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Poga_squareRootActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_squareRootActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="Lauks2">
+    <Component class="javax.swing.JLabel" name="LabelB">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="99" green="99" red="99" type="rgb"/>
