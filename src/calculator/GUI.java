@@ -288,11 +288,6 @@ public class GUI extends javax.swing.JPanel {
                 Button_7ActionPerformed(evt);
             }
         });
-        Button_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                Button_7KeyPressed(evt);
-            }
-        });
 
         Button_4.setBackground(new java.awt.Color(204, 204, 204));
         Button_4.setFont(new java.awt.Font("Roboto Light", 0, 24)); // NOI18N
@@ -479,7 +474,7 @@ public class GUI extends javax.swing.JPanel {
         labelAString = LabelA.getText();
         labelBString = LabelB.getText();
         
-        // If LabelA contains anything but number   
+        // If LabelA contains anything but number, return last known sum from LabelB
         if (labelAString.equals("+") || 
             labelAString.equals("-") || 
             labelAString.equals("x") || 
@@ -487,26 +482,26 @@ public class GUI extends javax.swing.JPanel {
             labelAString.equals("/") || 
             labelAString.equals("%")){
             LabelA.setText(labelBString);
-            LabelB.setText(""); //TODO Do I need this?
+            LabelB.setText("");
             calculationCurrent = "";
         }
-        // If LabelB is empty (i.e. first calculation)
+        // If LabelB is empty (i.e. first calculation), take sum from LabelA
         else if (labelBString.equals("")){
             LabelA.setText(labelAString);
             calculationCurrent = "";
         }
         // Perform calculation and read result
         else{
-            double num1Int = Double.valueOf(labelBString);
-            double num2Int = Double.valueOf(labelAString);
-            LabelA.setText(calculationLogic.calculate(calculationCurrent, num1Int, num2Int));
+            double num1Double = Double.valueOf(labelBString); //Double of previous number
+            double num2Double = Double.valueOf(labelAString); //Double of current number
+            LabelA.setText(calculationLogic.calculate(calculationCurrent, num1Double, num2Double));
             LabelB.setText("");
             calculationCurrent = "";
         }
     }//GEN-LAST:event_Button_equalsActionPerformed
 
     private void PressNumber(String numberVariable){
-        //If LabelA contains anything but number, if so remove and write number.
+        //If LabelA contains anything but number, remove and write number.
         labelAString = LabelA.getText();
         if(labelAString.equals("0") || 
            labelAString.equals("+") || 
@@ -526,11 +521,13 @@ public class GUI extends javax.swing.JPanel {
         LabelA.setText(labelAString + numberVariable);
         }
     
-    private void PressCalculate (String calculationVariable){        
+    private void PressCalculate (String calculationVariable){
+        // Read fields and save result as variables:
         labelAString = LabelA.getText();
         labelBString = LabelB.getText();
-        boolean repeatedCalculation = false;
+        boolean repeatedCalculation = false; //safeguard if user pressed various different calculation signs
         
+        // If LabelA contains anything but number, return last known sum from LabelB
         if (labelAString.equals("0") || 
             labelAString.equals("+") || 
             labelAString.equals("-") || 
@@ -539,30 +536,29 @@ public class GUI extends javax.swing.JPanel {
             labelAString.equals("/") || 
             labelAString.equals("%")){
             LabelA.setText("");
-            calculationPrevious = calculationVariable;
-            calculationCurrent = calculationVariable;
-            repeatedCalculation = true;
+            calculationPrevious = calculationVariable; //save new calculation symbol as previous 
+            calculationCurrent = calculationVariable; //save new calculation symbol as current
+            repeatedCalculation = true; //safeguard if user pressed various different calculation signs
         }
         else {
-        calculationPrevious = calculationCurrent; //saglabājam pagājušo matematisko funkciju
-        calculationCurrent = calculationVariable; //jaunā aprēķina funkcija, kas tiek iedarbināta
+        calculationPrevious = calculationCurrent; //save current calculation symbol as  previous
+        calculationCurrent = calculationVariable; //save new calculation symbol as current
         }
         
-        //If Field1 equals nothing, then just save number from Field1 to Num1
+        //If LabelB equals nothing, save number from LabelA to LabelB
         if(labelBString.equals(""))
             LabelB.setText(labelAString);
         
         else if(repeatedCalculation == true){
-            
+           //Do nothing (safeguard if user pressed various different calculation signs)
         }
-
+        // Perform calculation and read result
         else{
-            double num1Int = Double.valueOf(labelBString); // pagājušo skaitļu summa
-            double num2Int = Double.valueOf(labelAString); //jaunais skaitlis
-            LabelB.setText(calculationLogic.calculate(calculationPrevious, num1Int, num2Int));           
+            double num1Double = Double.valueOf(labelBString); //Double of previous number
+            double num2Double = Double.valueOf(labelAString); //Double of current number
+            LabelB.setText(calculationLogic.calculate(calculationPrevious, num1Double, num2Double));
         }
         LabelA.setText(calculationCurrent);
-        //reģistrē funkciju 
     }
     
     
@@ -658,10 +654,6 @@ public class GUI extends javax.swing.JPanel {
     private void Button_squareRootActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button_squareRootActionPerformed
         PressCalculate("^");
     }//GEN-LAST:event_Button_squareRootActionPerformed
-
-    private void Button_7KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Button_7KeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Button_7KeyPressed
 
     private void Button_dotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button_dotActionPerformed
         PressNumber(".");
